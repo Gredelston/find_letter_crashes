@@ -1,0 +1,146 @@
+23 Dry Dock Avenue
+27 Dry Dock Avenue
+88 Black Falcon Avenue
+AIrport
+Alewife
+Allston Street
+Andrew
+Aquarium
+Arlington
+Ashmont
+Assembly
+Babcock Street
+Back Bay
+Back of the Hill
+Beachmont
+Beaconsfield
+Bellingham Square
+Blandford Street
+Boston College
+Boston University Central
+Boston University East
+Boston University West
+Bowdoin
+Box District
+Boylston
+Braintree
+Brandon Hall
+Brigham Circle
+Broadway
+Brookline Hills
+Brookline Village
+Butler
+Capen Street
+Cedar Grove
+Central
+Central Avenue
+Charles/MGH
+Chelsea
+Chestnut Hill
+Chestnut Hill Avenue
+Chinatown
+Chiswick Road
+Cleveland Circle
+Community College
+Coolidge Corner
+Copley
+Courthouse
+Davis
+Dean Road
+Design Center
+Downtown Crossing
+Dudley Square
+East Berkeley Street
+Eastern Avenue
+Eliot
+Englewood Avenue
+Fairbanks
+Fenway
+Fenwood Road
+Fields Corner
+Forest Hills
+Government Center
+Green
+Griggs Street/Long Avenue
+Harvard
+Harvard Avenue
+Hawes Street
+Haymarket
+Heath Street
+Herald Street
+Hynes Convention Center
+Jackson Square
+JFK/UMass
+Kendall/MIT
+Kenmore
+Kent Street
+Lechmere
+Lenox Street
+Longwood
+Longwood Medical Area
+Malden Center
+Massachusetts Avenue
+Mattapan
+Maverick
+Melnea Cass Boulevard
+Milton
+Mission Park
+Museum of Fine Arts
+Newton Centre
+Newton Highlands
+Newton Street
+North Quincy
+North Station
+Northeastern University
+Northern Avenue & Harbor Street
+Northern Avenue & Tide Street
+Oak Grove
+Orient Heights
+Packards Corner
+Park Street
+Pleasant Street
+Porter
+Prudential
+Quincy Adams
+Quincy Center
+Reservoir
+Revere Beach
+Riverside
+Riverway
+Roxbury Crossing
+Ruggles
+Savin Hill
+Science Park
+Shawmut
+Silver Line Way
+South Station
+South Street
+St. Marys Street
+St. Paul Street
+State
+Stony Brook
+Suffolk Downs
+Sullivan Square
+Summit Avenue
+Sutherland Road
+Symphony
+Tappan Street
+Terminal A
+Terminal B Stop 1
+Terminal B Stop 2
+Terminal C
+Terminal E
+Tufts Medical Center
+Union Park Street
+Valley Road
+Waban
+Warren Street
+Washington Square
+Washington Street
+Wellington
+Wollaston
+Wonderland
+Wood Island
+Woodland
+Worcester Square
+World Trade Center
