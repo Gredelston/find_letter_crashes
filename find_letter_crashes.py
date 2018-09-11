@@ -7,7 +7,7 @@ import sys
 
 def main(file1, file2,
     ignore_spaces=False, ignore_punctuation=False,
-    allow_multiple_crashes=False):
+    single_crashes_only=False):
     # Parse the two files
     phrases_by_length1 = extract_phrases_by_length(
         file1, ignore_spaces, ignore_punctuation)
@@ -21,9 +21,9 @@ def main(file1, file2,
         phrases1 = phrases_by_length1[word_lengths]
         phrases2 = phrases_by_length2[word_lengths]
         crashing_pairs = find_crashing_pairs(
-            phrases1, phrases2, allow_multiple_crashes)
+            phrases1, phrases2, single_crashes_only)
         if crashing_pairs:
-            print(word_lengths)
+            print()
             for pair in crashing_pairs:
                 print(pair)
 
@@ -67,7 +67,7 @@ def intersection(l1, l2):
     return set(l1) & set(l2)
 
 
-def find_crashing_pairs(l1, l2, allow_multiple_crashes):
+def find_crashing_pairs(l1, l2, single_crashes_only):
     """Finds all pairs of strings which crash at a single character."""
     crashing_pairs = []
     all_pairs = itertools.product(l1, l2)
@@ -83,7 +83,9 @@ def find_crashing_pairs(l1, l2, allow_multiple_crashes):
             if char1 == char2 and re.match(r"\w", char1):
                 crashes.append(char1)
         # If this is a valid crash, add it to our list
-        if len(crashes) == 1 or (allow_multiple_crashes and len(crashes) >= 1):
+        if len(crashes):
+            if len(crashes) > 1 and single_crashes_only:
+                continue
             crashing_pairs.append((str1, str2, crashes))
     return crashing_pairs
 
@@ -96,7 +98,7 @@ if __name__ == "__main__":
     # Optional flags
     parser.add_argument("--ignorespaces", default=False, action="store_true")
     parser.add_argument("--ignorepunctuation", default=False, action="store_true")
-    parser.add_argument("--allowmultiplecrashes", default=False, action="store_true")
+    parser.add_argument("--singlecrashesonly", default=False, action="store_true")
     # Parse & run
     args = parser.parse_args(sys.argv[1:])
-    main(args.file1, args.file2, args.ignorespaces, args.ignorepunctuation, args.allowmultiplecrashes)
+    main(args.file1, args.file2, args.ignorespaces, args.ignorepunctuation, args.singlecrashesonly)
