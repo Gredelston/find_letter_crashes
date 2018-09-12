@@ -6,7 +6,7 @@ This script finds all pairs of words/phrases that have crashing letters.
 
 To compare two lists of words/phrases, run the script with each list of phrases saved as a newline-delimited .txt file:
 
-```python find_letter_crashes.py mbta_stations.txt tube_station_names.txt```
+```python find_letter_crashes.py mbta_stations.txt boston_area_cities_towns.txt```
 
 Crashing pairs will display as a 3-tuple: `(element from List 1, element from List 2, [all crashing letters])`
 
